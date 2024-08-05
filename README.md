@@ -24,21 +24,6 @@ This is a movie database web application that allows users to search for movies,
 - **TMDb API Key**: `a010453857d6630568672d8933519b33`
 - **YouTube API Key**: `AIzaSyAyKww5kVYfuGqp_nLhhmGn1tYpSHid1eo`
 
-## File Structure
-/Phase-1-Project-My-Movie-Database-
-├── /css
-│ ├── style.css # Styles for the movie list page (index.html)
-│ └── movies.css # Styles for the movie details page (movie.html)
-
-├── /js
-│ ├── script.js # JavaScript for the movie list page
-│ └── movies.js # JavaScript for the movie details page
-
-
-├── index.html # Main page displaying the list of movies
-├── movies.html # Detailed page for individual movie
-└── README.md # This README file
-
 ### Usage
 Search for Movies
 
