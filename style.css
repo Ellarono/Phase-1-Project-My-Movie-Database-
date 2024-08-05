@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     background-color: #cbfcaa;
     color: #333;
 }
@@ -35,6 +35,8 @@ header h1 {
 }
 
 #searchInput {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     width: 70%;
     border: 2px solid #ddd;
@@ -42,10 +44,11 @@ header h1 {
     outline: none;
 }
 
-#searchButton {
+#searchmovies {
+    font-family:'Times New Roman', Times, serif, sans-serif ;
     padding: 10px;
     border: none;
-    background-color: #007bff; /* Blue */
+    background-color: #d3cb60; /* Blue */
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
@@ -54,7 +57,7 @@ header h1 {
 }
 
 #searchButton:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #b38900; /* Darker Blue */
 }
 
 #moviesContainer {
@@ -84,14 +87,14 @@ header h1 {
     width: 100%;
     height: auto;
     display: block;
-    border-bottom: 4px solid #ff6f61; /* Coral */
+    border-bottom: 4px solid #ffffff; /* Coral */
 }
 
 .movie h3 {
     font-size: 18px;
     margin: 10px 0;
-    color: #ff8800; /* Blue */
-    background: #862000; /* Yellow */
+    color: #ff6600; /* Blue */
+    background: #ffffff; /* Yellow */
     padding: 5px;
     border-radius: 4px;
 }
