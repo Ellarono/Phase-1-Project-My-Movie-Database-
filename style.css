@@ -90,8 +90,8 @@ header h1 {
 .movie h3 {
     font-size: 18px;
     margin: 10px 0;
-    color: #007bff; /* Blue */
-    background: #ffeb3b; /* Yellow */
+    color: #ff8800; /* Blue */
+    background: #862000; /* Yellow */
     padding: 5px;
     border-radius: 4px;
 }
@@ -107,5 +107,5 @@ header h1 {
 
 .movie p {
     padding: 0 10px;
-    color: #666;
+    color: #e26b6b;
 }

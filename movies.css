@@ -82,7 +82,7 @@ header h1 {
 }
 
 #movieDetailsContainer a:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #0056b3; 
 }
 
 #reviewsContainer {
@@ -92,8 +92,8 @@ header h1 {
 #reviewsContainer h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #ff6f61; /* Coral */
-    background: #f0f8ff; /* Alice Blue */
+    color: #ff6f61; 
+    background: #f0f8ff; 
     padding: 10px;
     border-radius: 4px;
 }
@@ -114,17 +114,17 @@ header h1 {
     align-content: center;
 }
 footer {
-    background-color: #f3cbcb; /* Dark background for footer */
-    color: #fff; /* Light text color */
+    background-color: #f3cbcb; 
+    color: #fff; 
     padding: 20px;
-    text-align: center; /* Center text horizontally */
+    text-align: center; 
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically, if needed */
-    flex-direction: column; /* Stack items vertically */
-    position: fixed; /* Fix the footer to the bottom */
-    width: 100%; /* Full width */
-    bottom: 0; /* Align to the bottom of the page */
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
 }
 
 footer p {
