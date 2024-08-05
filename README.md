@@ -13,10 +13,10 @@ This is a movie database web application that allows users to search for movies,
 
 ## Technologies Used
 
-- **HTML**: For structuring the web pages.
+- **HTML**: This is used to structure the web pages.
 - **CSS**: For styling the web pages.
 - **JavaScript**: For fetching and displaying movie data.
-- **TMDb API**: For fetching movie information and reviews.
+- **TMDb API**: This is used for fetching movie information and reviews.
 - **YouTube API**: For fetching movie trailers.
 
 ## API Keys
@@ -38,5 +38,5 @@ Reviews for the movie will also be displayed.
 ### Live Demo
 You can view the live demo of this project at https://ellarono.github.io/Phase-1-Project-My-Movie-Database-/
 
-##Contributing
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
