@@ -38,5 +38,5 @@ Reviews for the movie will also be displayed.
 ### Live Demo
 You can view the live demo of this project at https://ellarono.github.io/Phase-1-Project-My-Movie-Database-/
 
-## Contributing
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
