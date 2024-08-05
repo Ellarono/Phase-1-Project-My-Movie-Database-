@@ -1,35 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-#app {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h1 {
-    margin: 0;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     color: #333;
 }
 
-#searchInput {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6f61; /* Coral */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#searchBar {
     margin-top: 10px;
-    box-sizing: border-box;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+#searchButton {
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#searchButton:hover {
+    background-color: #0056b3; /* Darker Blue */
 }
 
 #moviesContainer {
@@ -37,27 +62,50 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .movie {
-    width: 150px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
     text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .movie img {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #ff6f61; /* Coral */
 }
 
 .movie h3 {
-    font-size: 16px;
-    color: #333;
-    margin: 10px 0 5px;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #007bff; /* Blue */
+    background: #ffeb3b; /* Yellow */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.movie a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.movie a:hover {
+    text-decoration: underline;
 }
 
 .movie p {
-    font-size: 14px;
-    color: #777;
-    margin: 0;
+    padding: 0 10px;
+    color: #666;
 }

@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6f61; /* Coral */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #ff6f61;
+}
+
+#movieDetailsContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#movieDetailsContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    max-width: 65%; 
+    height: auto;    
+    margin-bottom: 20px;
+   
+}
+
+#movieDetailsContainer h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ff6f61; 
+    background: #f0f8ff; 
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#movieDetailsContainer p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#movieDetailsContainer a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#movieDetailsContainer a:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+#reviewsContainer {
+    margin-top: 20px;
+}
+
+#reviewsContainer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6f61; /* Coral */
+    background: #f0f8ff; /* Alice Blue */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#reviewsContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reviewsContainer li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    align-content: center;
+}
+footer {
+    background-color: #f3cbcb; /* Dark background for footer */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically, if needed */
+    flex-direction: column; /* Stack items vertically */
+    position: fixed; /* Fix the footer to the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align to the bottom of the page */
+}
+
+footer p {
+    margin: 0; /* Remove default margins */
+}
+
+footer a {
+    color: #ff6f61; /* Coral color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
